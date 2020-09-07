@@ -4,8 +4,39 @@
 #define CLRSCR system("clear");
 #define LINE cout << "------------------------------------------------------------------" << endl;
 
+// Excersise - create an HTML builder for generating an HTML content using builder pattern
+/*
+ * Head head;
+ * head.add(new Title("this is title"))
+ * .add(new Meta("x", "y"))
+ * .add(new Meta("a", "b"));
+ * 
+ * Body body;
+ * body.add(new Heading1("This is h1"));
+ * 
+ * Html html;
+ * html.add(head)
+ * .add(body);
+ * 
+ * html.build();
+ * 
+ * <html>
+ * <head>
+ * <title>this is title</title>
+ * <meta name="x" content="y">
+ * <meta name="a" content="b">
+ * </head>
+ * <body>
+ * <h1>this is h1</h1>
+ * </body>
+ * <html>
+ *  
+ * 
+*/
+
 // SQL commands:
-// 1. SELECT * FROM EMPLOYEES WHERE SALARY>=1200 AND DEPT='ADMIN' AND JOB_TITLE='MANAGER' OR JOB_TITLE='SALESMAN'
+// 1. SELECT * FROM EMPLOYEES WHERE SALARY>=1200 AND DEPT='ADMIN' 
+//    AND JOB_TITLE='MANAGER' OR JOB_TITLE='SALESMAN' ORDER BY SALARY desc, NAME asc
 using namespace std;
 
 class SqlBuilder
@@ -13,7 +44,7 @@ class SqlBuilder
     string sql;
     bool table_specified = false;
     bool condition_specified = false;
-
+    // provide a flag for "ORDER_BY" clause, with ascending/descending specification
 public:
     SqlBuilder()
     {
