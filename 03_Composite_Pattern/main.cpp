@@ -186,6 +186,16 @@ int main()
     d3->add(new P("This is level 4 composite"));
     d2->add(d3);
     
+    /*
+     * HtmlBuilder builder;
+     * builder
+     *  .setHead(..)
+     *  .setTitle(..)
+     *  .addMeta(..)
+     *  .setBody(..)
+     *  .toString();
+     */
+    
     
     Html*html = new Html;
     
