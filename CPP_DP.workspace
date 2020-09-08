@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="CPP_DP" Database="" Version="10000">
-  <Project Name="01_Builter_Pattern" Path="01_Builter_Pattern/01_Builter_Pattern.project" Active="Yes"/>
+  <Project Name="01_Builter_Pattern" Path="01_Builter_Pattern/01_Builter_Pattern.project" Active="No"/>
+  <Project Name="02_Builder_Pattern_Solution" Path="02_Builder_Pattern_Solution/02_Builder_Pattern_Solution.project" Active="No"/>
+  <Project Name="03_Composite_Pattern" Path="03_Composite_Pattern/03_Composite_Pattern.project" Active="Yes"/>
+  <Project Name="04_Composite_Pattern_Files" Path="04_Composite_Pattern_Files/04_Composite_Pattern_Files.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="01_Builter_Pattern" ConfigName="Debug"/>
+      <Project Name="02_Builder_Pattern_Solution" ConfigName="Debug"/>
+      <Project Name="03_Composite_Pattern" ConfigName="Debug"/>
+      <Project Name="04_Composite_Pattern_Files" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="01_Builter_Pattern" ConfigName="Release"/>
+      <Project Name="02_Builder_Pattern_Solution" ConfigName="Release"/>
+      <Project Name="03_Composite_Pattern" ConfigName="Release"/>
+      <Project Name="04_Composite_Pattern_Files" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
