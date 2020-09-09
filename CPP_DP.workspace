@@ -6,7 +6,9 @@
   <Project Name="04_Composite_Pattern_Files" Path="04_Composite_Pattern_Files/04_Composite_Pattern_Files.project" Active="No"/>
   <Project Name="05_Factory_Method" Path="05_Factory_Method/05_Factory_Method.project" Active="No"/>
   <Project Name="06_Abstract_Factory" Path="06_Abstract_Factory/06_Abstract_Factory.project" Active="No"/>
-  <Project Name="07_Template_Method" Path="07_Template_Method/07_Template_Method.project" Active="Yes"/>
+  <Project Name="07_Template_Method" Path="07_Template_Method/07_Template_Method.project" Active="No"/>
+  <Project Name="08_Strategy" Path="08_Strategy/08_Strategy.project" Active="No"/>
+  <Project Name="09_Decorator" Path="09_Decorator/09_Decorator.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -17,6 +19,8 @@
       <Project Name="05_Factory_Method" ConfigName="Debug"/>
       <Project Name="06_Abstract_Factory" ConfigName="Debug"/>
       <Project Name="07_Template_Method" ConfigName="Debug"/>
+      <Project Name="08_Strategy" ConfigName="Debug"/>
+      <Project Name="09_Decorator" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -27,6 +31,8 @@
       <Project Name="05_Factory_Method" ConfigName="Release"/>
       <Project Name="06_Abstract_Factory" ConfigName="Release"/>
       <Project Name="07_Template_Method" ConfigName="Release"/>
+      <Project Name="08_Strategy" ConfigName="Release"/>
+      <Project Name="09_Decorator" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
