@@ -93,15 +93,16 @@ int main()
     KeyboardReader kr;
     
     LineReader *lr;
+    string result;
     
     lr = new LineReader(&fr);
-    lr->readLine(); // acting on a file as a source
+    result = lr->readLine(); // acting on a file as a source
     
     lr = new LineReader(&sr);
-    lr->readLine(); // acting on a socket as a source
+    result = lr->readLine(); // acting on a socket as a source
     
     lr = new LineReader(&kr);
-    lr->readLine(); // acting on a keybaord as a source
+    result = lr->readLine(); // acting on a keybaord as a source
     
     
 }
