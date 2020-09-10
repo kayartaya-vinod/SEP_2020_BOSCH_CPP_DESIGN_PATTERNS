@@ -9,7 +9,8 @@
   <Project Name="07_Template_Method" Path="07_Template_Method/07_Template_Method.project" Active="No"/>
   <Project Name="08_Strategy" Path="08_Strategy/08_Strategy.project" Active="No"/>
   <Project Name="09_Decorator" Path="09_Decorator/09_Decorator.project" Active="No"/>
-  <Project Name="10_Observer" Path="10_Observer/10_Observer.project" Active="Yes"/>
+  <Project Name="10_Observer" Path="10_Observer/10_Observer.project" Active="No"/>
+  <Project Name="11_Proxy" Path="11_Proxy/11_Proxy.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -23,6 +24,7 @@
       <Project Name="08_Strategy" ConfigName="Debug"/>
       <Project Name="09_Decorator" ConfigName="Debug"/>
       <Project Name="10_Observer" ConfigName="Debug"/>
+      <Project Name="11_Proxy" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -36,6 +38,7 @@
       <Project Name="08_Strategy" ConfigName="Release"/>
       <Project Name="09_Decorator" ConfigName="Release"/>
       <Project Name="10_Observer" ConfigName="Release"/>
+      <Project Name="11_Proxy" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

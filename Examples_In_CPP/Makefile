@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 10_Observer - Debug ]----------"
-	@cd "10_Observer" && "$(MAKE)" -f  "10_Observer.mk"
+	@echo "----------Building project:[ 11_Proxy - Debug ]----------"
+	@cd "11_Proxy" && "$(MAKE)" -f  "11_Proxy.mk"
 clean:
-	@echo "----------Cleaning project:[ 10_Observer - Debug ]----------"
-	@cd "10_Observer" && "$(MAKE)" -f  "10_Observer.mk" clean
+	@echo "----------Cleaning project:[ 11_Proxy - Debug ]----------"
+	@cd "11_Proxy" && "$(MAKE)" -f  "11_Proxy.mk" clean

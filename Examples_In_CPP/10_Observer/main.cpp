@@ -30,7 +30,7 @@ public:
     }
 };
 
-// observer/subscriber/listeners
+// observer/subscriber/listeners <--- interfaces
 // struct ProductListener{
 //    virtual void onAddProduct(Product *p)=0;
 //    virtual void onUpdateProduct(Product *p)=0;
@@ -98,7 +98,7 @@ public:
 };
 
 // concrete subscribers
-class Logger : public AddProductListener
+class Logger : public AddProductListener//, UpdateProductListener, DeleteProductListener, GetProductListener
 {
 public:
     virtual void onAddProduct(Product* p)
