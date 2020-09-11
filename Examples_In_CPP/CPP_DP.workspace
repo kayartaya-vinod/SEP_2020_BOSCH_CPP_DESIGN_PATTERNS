@@ -11,7 +11,8 @@
   <Project Name="09_Decorator" Path="09_Decorator/09_Decorator.project" Active="No"/>
   <Project Name="10_Observer" Path="10_Observer/10_Observer.project" Active="No"/>
   <Project Name="11_Proxy" Path="11_Proxy/11_Proxy.project" Active="No"/>
-  <Project Name="12_Command" Path="12_Command/12_Command.project" Active="Yes"/>
+  <Project Name="12_Command" Path="12_Command/12_Command.project" Active="No"/>
+  <Project Name="13_Bridge" Path="13_Bridge/13_Bridge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -27,6 +28,7 @@
       <Project Name="10_Observer" ConfigName="Debug"/>
       <Project Name="11_Proxy" ConfigName="Debug"/>
       <Project Name="12_Command" ConfigName="Debug"/>
+      <Project Name="13_Bridge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -42,6 +44,7 @@
       <Project Name="10_Observer" ConfigName="Release"/>
       <Project Name="11_Proxy" ConfigName="Release"/>
       <Project Name="12_Command" ConfigName="Release"/>
+      <Project Name="13_Bridge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

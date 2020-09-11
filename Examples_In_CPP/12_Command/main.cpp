@@ -7,7 +7,7 @@
 
 using namespace std;
 
-// abstract Receiver
+// abstract Receiver (for example, 'File' in the usecase of text editor)
 struct Server {
     virtual void connect() = 0;
     virtual void disconnect() = 0;
@@ -183,7 +183,12 @@ public:
     void executeJob()
     {
         for(auto& cmd : commands) {
-            cmd->execute();
+            try{
+                cmd->execute();
+            }
+            catch(exception ex){
+                // handle exceptions; rollback transactions (undo using Memento pattern)
+            }
         }
     }
 };
