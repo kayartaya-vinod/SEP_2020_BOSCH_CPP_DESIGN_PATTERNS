@@ -12,6 +12,7 @@ class Product
     int id;
     string name;
     double price;
+    
 
 public:
     Product(int id, string name, double price)

@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="/Users/vinod/Desktop/CPP_DP/Examples_In_CPP/CPP_DP.workspace">
-  <int Value="0" Name="m_selectedTab"/>
+  <int Value="1" Name="m_selectedTab"/>
   <wxString Value="/Users/vinod/Desktop/CPP_DP/Examples_In_CPP/CPP_DP.workspace" Name="m_workspaceName"/>
-  <TabInfoArray Name="TabInfoArray"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="/Users/vinod/Desktop/CPP_DP/Examples_In_CPP/10_Observer/main.cpp" Name="FileName"/>
+      <int Value="51" Name="FirstVisibleLine"/>
+      <int Value="62" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/vinod/Desktop/CPP_DP/Examples_In_CPP/11_Proxy/main.cpp" Name="FileName"/>
+      <int Value="94" Name="FirstVisibleLine"/>
+      <int Value="102" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
   <SerializedObject Name="m_breakpoints">
     <long Value="0" Name="Count"/>
   </SerializedObject>
