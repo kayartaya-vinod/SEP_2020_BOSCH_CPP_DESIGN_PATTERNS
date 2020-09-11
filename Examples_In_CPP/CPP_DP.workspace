@@ -13,7 +13,8 @@
   <Project Name="11_Proxy" Path="11_Proxy/11_Proxy.project" Active="No"/>
   <Project Name="12_Command" Path="12_Command/12_Command.project" Active="No"/>
   <Project Name="13_Bridge" Path="13_Bridge/13_Bridge.project" Active="No"/>
-  <Project Name="14_Visitor" Path="14_Visitor/14_Visitor.project" Active="Yes"/>
+  <Project Name="14_Visitor" Path="14_Visitor/14_Visitor.project" Active="No"/>
+  <Project Name="15_RAII" Path="15_RAII/15_RAII.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -31,6 +32,7 @@
       <Project Name="12_Command" ConfigName="Debug"/>
       <Project Name="13_Bridge" ConfigName="Debug"/>
       <Project Name="14_Visitor" ConfigName="Debug"/>
+      <Project Name="15_RAII" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -48,6 +50,7 @@
       <Project Name="12_Command" ConfigName="Release"/>
       <Project Name="13_Bridge" ConfigName="Release"/>
       <Project Name="14_Visitor" ConfigName="Release"/>
+      <Project Name="15_RAII" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
